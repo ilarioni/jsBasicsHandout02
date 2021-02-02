@@ -90,3 +90,11 @@ console.log(str2);
 let str3 = str1.padEnd(4, 0);
 console.log(str3);
 
+// Character position
+
+var str4 = "HELLO WORLD";
+var str5 = str4.charAt(0);
+console.log(str5);
+
+var str6 = str4[6];
+console.log(str6);
