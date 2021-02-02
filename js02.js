@@ -68,3 +68,10 @@ var text = "please visit them";
 var n = text.replace("them", "us")
 console.log(n);
 
+// Converting to Upper and Lower case
+var text1 = "Hello World";
+var text2 = text1.toUpperCase();
+console.log(text2);
+
+var text3 = text1.toLowerCase();
+console.log(text3);
