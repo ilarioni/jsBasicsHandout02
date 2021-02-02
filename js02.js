@@ -52,3 +52,14 @@ console.log(result);
 var result1 = txt2.substring(8);
 console.log(result1);
 
+// >>>> substr - second parameter is length
+var txt3 = "Grapes, Apple, Banana";
+var output = txt3.substr(8, 5);
+console.log(output);
+
+var output1 = txt3.substr(8);
+console.log(output1);
+
+var output2 = txt3.substr(-6);
+console.log(output2);
+
