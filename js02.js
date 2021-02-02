@@ -81,3 +81,12 @@ var erste = "Hello world";
 var zweite = "you are wonderful!";
 var dritte = erste.concat(", ", zweite);
 console.log(dritte);
+
+// string padding
+let str1 = "5";
+let str2 = str1.padStart(4, 0);
+console.log(str2);
+
+let str3 = str1.padEnd(4, 0);
+console.log(str3);
+
