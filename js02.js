@@ -75,3 +75,9 @@ console.log(text2);
 
 var text3 = text1.toLowerCase();
 console.log(text3);
+
+// concatinate
+var erste = "Hello world";
+var zweite = "you are wonderful!";
+var dritte = erste.concat(", ", zweite);
+console.log(dritte);
