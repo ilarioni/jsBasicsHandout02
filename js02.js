@@ -42,3 +42,13 @@ console.log(res3);
 
 var res4 = txt1.slice(-12);
 console.log(res4);
+
+// >>>>> substring  - it cannot accept negative indexes
+
+var txt2 = "Orange, Avocado, Grapes";
+var result = txt2.substring(8, 15);
+console.log(result);
+
+var result1 = txt2.substring(8);
+console.log(result1);
+
