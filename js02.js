@@ -63,3 +63,8 @@ console.log(output1);
 var output2 = txt3.substr(-6);
 console.log(output2);
 
+// Replacings string content
+var text = "please visit them";
+var n = text.replace("them", "us")
+console.log(n);
+
